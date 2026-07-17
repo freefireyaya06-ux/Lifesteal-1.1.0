@@ -1,0 +1,40 @@
+name: Lifesteal
+version: 1.1.0
+main: com.lifesteal.Lifesteal
+api-version: 1.21
+description: A Lifesteal game mode plugin with heart redemption system
+authors: [Claude]
+website: https://github.com
+
+commands:
+  unban:
+    description: Unban a player from the server
+    usage: /unban <player>
+    permission: lifesteal.unban
+    
+  lifesteal:
+    description: Lifesteal plugin commands
+    usage: /lifesteal <reload|stats|help>
+    permission: lifesteal.admin
+    
+  redeem:
+    description: Redeem hearts to gain health
+    usage: /redeem heart <count>
+    permission: lifesteal.redeem
+
+permissions:
+  lifesteal.unban:
+    description: Permission to unban players
+    default: op
+    
+  lifesteal.admin:
+    description: Permission for admin commands
+    default: op
+    
+  lifesteal.stats:
+    description: Permission to view statistics
+    default: op
+    
+  lifesteal.redeem:
+    description: Permission to redeem hearts
+    default: true

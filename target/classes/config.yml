@@ -1,0 +1,49 @@
+# ╔═══════════════════════════════════════════════════════════╗
+# ║              LIFESTEAL PLUGIN CONFIGURATION              ║
+# ╚═══════════════════════════════════════════════════════════╝
+
+settings:
+  # Chance for mobs to drop a heart (0.0 to 1.0, where 1.0 = 100%)
+  mob-kill-chance: 0.15
+  
+  # Number of hearts a player gets when unbanned
+  unban-hearts: 4
+  
+  # Enable/disable certain features
+  features:
+    player-kills: true
+    mob-kills: true
+    unban-book: true
+    heart-redemption: true
+
+messages:
+  # Message shown when a player reaches 0 hearts and gets banned
+  ban-message: "§c§l════════════════════════════════════\n§c§lYOU HAVE BEEN BANNED!\n§c§lYour hearts reached 0 in combat.\n§c§lWait for someone to use an Unban Book\n§c§lor an admin uses /unban command.\n§c§l════════════════════════════════════"
+  
+  # Message shown when a player gets unbanned
+  unban-message: "§a§l════════════════════════════════════\n§a§lYOU HAVE BEEN UNBANNED!\n§a§lYou now have 4 hearts to survive.\n§a§lGood luck!\n§a§l════════════════════════════════════"
+  
+  # Message shown to killer after killing another player
+  player-kill-message: "§6You killed §b{PLAYER}§6 and gained 1 heart!"
+  
+  # Message shown to victim after losing a heart
+  victim-death-message: "§c§lYou lost 1 heart to §b{KILLER}§c!"
+  
+  # Message when lucky mob kill occurs
+  lucky-mob-message: "§a§l✦ Lucky! §aYou gained a heart from a mob!"
+
+# Mob types that can drop hearts on kill
+mobs:
+  - ZOMBIE
+  - SKELETON
+  - CREEPER
+  - ENDERMAN
+  - WITCH
+  - WITHER_SKELETON
+  - PIGLIN_BRUTE
+  - GUARDIAN
+  - ELDER_GUARDIAN
+  - EVOKER
+  - VINDICATOR
+  - RAVAGER
+  - PHANTOM

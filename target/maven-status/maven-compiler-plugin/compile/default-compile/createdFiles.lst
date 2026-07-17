@@ -1,0 +1,12 @@
+com/lifesteal/listeners/ItemInteractListener$1.class
+com/lifesteal/commands/UnbanCommand.class
+com/lifesteal/listeners/PlayerKillListener.class
+com/lifesteal/commands/LifeStealCommand.class
+com/lifesteal/managers/BanManager.class
+com/lifesteal/commands/RedeemCommand.class
+com/lifesteal/Lifesteal.class
+com/lifesteal/listeners/MobKillListener.class
+com/lifesteal/listeners/ItemInteractListener.class
+com/lifesteal/listeners/PlayerJoinListener.class
+com/lifesteal/listeners/HeartInteractListener.class
+com/lifesteal/managers/ConfigManager.class
